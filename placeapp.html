@@ -1,0 +1,147 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Portfolio Starko</title>
+    <link rel="stylesheet" href="style/placeapp.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"></script>
+      
+  </head>
+ <body>
+    <main id="top">
+        <header>
+            <nav>
+                <a class="navbarlink left" href="index.html" aria-label="Перейти на головну сторінку">Home</a>
+                <a class="navbarlink left" href="work.html" aria-label="Перейти до розділу робіт">Work</a>
+            </nav>
+            <a class="downloadcv" href="Oleh_Starko_CV.pdf"  aria-label="Download CV">Download CV</a>
+        </header>
+        <section class="centerSection">
+            <article class="projectContent">
+                <div class="projectName">
+                    <h1>Project No.03</h1>
+                    <h2>Place App</h2>
+                </div>
+                <div class="companyDescription">
+                    <div class="companyInfo">
+                        <p>Company</p>
+                        <p class="greyText">Place App</p>
+                        <p class="greyText">2024</p>
+                    </div>
+                    <div class="roleInfo">
+                        <p>Role</p>
+                        <p class="greyText">Graphic / Visual</p>
+                    </div>
+                </div>
+            </article>
+            <article class="projectLogo">
+                <div class="logoImg"></div>
+            </article>
+            <section class="projectDescriptionContent">
+                <div class="projectDescription">
+                    <div class="companyInfo">
+                        <p>Project</p>
+                        <p class="greyText">Place App</p>
+                       
+                    </div>
+                    <div class="roleInfo">
+                        <p>Work</p>
+                        <p class="greyText">Development of a series of street posters</p>
+                        <p class="greyText">Design of desktop advertising materials</p>
+                      
+                    </div>
+                </div>
+                <div class="taskInfo">
+                    <h1>Challenge</h1>
+                    <p>Places App is a technology platform for restaurants that offers solutions for online ordering, digital menus, loyalty programs and branded mobile applications. I developed a series of outdoor posters and digital citylight layouts for the “Skip the queue” campaign, where the key message is to encourage users to order through the app to avoid queues in restaurants. I also created a design for tabletop promotional materials with QR codes for a quick transition to the app.</p>
+                    </div>
+            </section>
+            
+            
+            <section class="dataMaterial">
+                            <p class="dataDescriptionText">Street advertising</p>
+                            <div class="grid-container">
+                                <div class="grid-item"><img src="./img/placeapp/1.jpg" alt=""></div>
+                                <div class="grid-item"><img src="./img/placeapp/2.jpg" alt=""></div>
+                                <div class="grid-item"><img src="./img/placeapp/3.jpg" alt=""></div>
+                                <div class="grid-item"><img src="./img/placeapp/4.jpg" alt=""></div>
+                                <div class="grid-item"><img src="./img/placeapp/5.jpg" alt=""></div>
+                                <div class="grid-item">
+                                    <div class="grid-item">
+                                        <video muted playsinline loop>
+                                         <source src="./video/placeapp/faces.mp4" type="video/mp4">
+                                        </video>
+
+                                    </div>
+                                </div>
+                            
+                            </div>   
+            </section>
+
+             <section class="dataMaterial">
+                            <p class="dataDescriptionText">Print advertising</p>
+                            <div class="grid-container">
+                                <div class="grid-item"><img src="./img/placeapp/6.jpg" alt=""></div>
+                                
+                            
+                            </div>   
+            </section>
+
+        </section>
+
+
+
+
+         <!-- FOOTER -->
+        <footer>
+           <div class="footerNav"> 
+                <a href="work.html" class="backIndex">
+                    <p>Project Index</p>
+                    
+                </a>
+                <a class="scrollUp" href="#top">
+                    <p>Scroll Up</p>
+                
+                </a>
+            </div>
+            <div class="footerCenter">
+                <a href="readdle.html" class="nextProjectName">
+                    <div class="nextProgectBox">
+                        <h1>Project No.04</h1>
+                        
+                    </div>
+                     <h2>Readdle</h2>
+                </a>
+            </div>
+
+            <div class="bottomSection">
+                <p >Contact</p>
+                <a style="color: #5A5757;text-decoration: none;line-height: 160%;" >starartds@gmail.com</a>
+                <a style="color: #5A5757;text-decoration: none;line-height: 160%;" >+380 66 582 19 08</a>
+               
+            </div>
+
+
+        </footer>
+    </main>
+
+<script>
+  const video = document.querySelector("video");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        video.play();   // запускаємо
+      } else {
+        video.pause();  // зупиняємо
+      }
+    });
+  }, { threshold: 0.5 }); // 50% відео має бути у полі зору
+
+  observer.observe(video);
+</script>
+  </body>
+</html>
