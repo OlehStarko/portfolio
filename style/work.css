@@ -163,14 +163,10 @@ nav a{
   flex-direction: row;
   align-items: flex-end;
   margin-bottom: 0px;
-  animation-name: bottomSectionAnimation;
-  animation-duration: 1s;
+
     
 }
-@keyframes bottomSectionAnimation {
-  0%   {margin-bottom: -100px;}
-  100% {margin-bottom: 0px;}
-}
+
 
 
 
