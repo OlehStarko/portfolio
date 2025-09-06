@@ -388,7 +388,7 @@ margin-left: 40px;
     background-image: url("../img/weareclariobg.png");
   
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1200px) {
     .dataImgWeAreClario {
        padding-top:40px;
        padding-bottom:40px;
