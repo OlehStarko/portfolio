@@ -388,6 +388,13 @@ margin-left: 40px;
     background-image: url("../img/weareclariobg.png");
   
 }
+@media screen and (min-width: 700px) {
+    .dataImgWeAreClario {
+       padding-top:40px;
+       padding-bottom:40px;
+  
+    }
+}
 .dataImgDigitalLeft{
     width: 100%;
     background-color: #ffffff; 
