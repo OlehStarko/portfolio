@@ -1,3 +1,43 @@
+/* --- Підключення шрифтів --- */
+
+/* Regular 400 */
+@font-face {
+  font-family: "Gilroy";
+  src:
+    local("Gilroy Regular"),
+    local("Gilroy-Regular"),
+    url("/fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium 500 */
+@font-face {
+  font-family: "Gilroy";
+  src:
+    local("Gilroy Medium"),
+    local("Gilroy-Medium"),
+    url("/fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("/fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold 700 */
+@font-face {
+  font-family: "Gilroy";
+  src:
+    local("Gilroy Bold"),
+    local("Gilroy-Bold"),
+    url("/fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("/fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 body{
        background-color: #171716;
@@ -13,7 +53,8 @@ body{
     background-color: #171716;
     color: #ffffff;
     margin: 0;
-    font-family: 'Gilroy', sans-serif;
+    font-family: "Gilroy", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+font-synthesis-weight: none; 
     margin: 0;
     height: 100%;
   }
