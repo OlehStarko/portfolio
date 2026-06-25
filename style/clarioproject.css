@@ -427,9 +427,8 @@ margin-left: 40px;
 .dataContentWeAreClario {
     display: block;
     width: 100%;
-    max-width: 1137px;
+    max-width: none;
     height: auto;
-    object-fit: contain;
 }
 @media screen and (min-width: 700px) {
     .dataContentWeAreClario {
