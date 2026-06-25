@@ -433,7 +433,7 @@ margin-left: 40px;
 }
 @media screen and (min-width: 700px) {
     .dataContentWeAreClario {
-        content: url("../img/placeholder.png");
+        //*content: url("../img/placeholder.png");*//
         margin: 0 auto;
     }
 }
